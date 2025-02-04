@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #e50914;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #e50914;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.8);
+    transform: scale(1.1);
+}
+
+section {
+    padding: 20px;
+}
+
+.members {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.members article {
+    background-color: #282222;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+section p {
+    color: #ffffff;
+}
+
+section.albums{
+    background-color: #292525;
+    padding: 2%;
+    
+}
+
+.albums article {
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.albums {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.albums p{
+    color: #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e50914;
+    color: white;
+}
+
+.memberslist {
+    background-color: #2f2828;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 800px;
+}
+
+.tophits {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 4%;
+}
+
+.tophits h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #e50914;
+}
+
+.tophits audio {
+    margin: 1%;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.videos video{
+    height: 230px;
+    border: #e50914 solid;
+}
+
+iframe {
+    border: none;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
