@@ -1,0 +1,31 @@
+.navbar{
+    padding: 10px;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero img{
+    height: 300px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.567);
+}
+
+h1{
+    font-size: 3.5vw;
+}
+h2{
+    font-size: 2vw;;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-brand{
+        display: none;
+    }
+}
