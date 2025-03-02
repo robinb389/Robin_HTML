@@ -20,9 +20,34 @@
 h1{
     font-size: 3.5vw;
 }
-h2{
-    font-size: 2vw;;
+
+.hero h2{
+    font-size: 2.3vw; /*mida de la font relativa a la pantalla*/
+    color: #615151; /*color del text*/
 }
+
+
+.hero-imatge-developer{
+    width:250px;
+    height:200px;
+    margin:20px;
+    /*alerta perquè pressuposem que la imatge és quadrada*/
+}
+
+h1{
+    font-size: 3.5vw; /*mida de la font relativa a la pantalla*/
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.vast-shadow-regular {
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 
 @media screen and (max-width:768px) {
     .navbar-brand{
